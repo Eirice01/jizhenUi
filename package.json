@@ -1,0 +1,103 @@
+{
+  "name": "technical-investigation-platform",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "lintfix": "vue-cli-service lint --fix",
+    "inspect": "vue-cli-service inspect>webpack.conf.js"
+  },
+  "dependencies": {
+    "@yanhaijing/console_js": "^0.5.0-1",
+    "autoprefixer": "^9.6.1",
+    "axios": "^0.19.0",
+    "bootstrap": "^4.3.1",
+    "browserslist": "^4.7.0",
+    "core-js": "^2.6.5",
+    "echarts": "^4.2.1",
+    "element-dataset": "^2.2.6",
+    "es6-promise": "^4.2.8",
+    "ie-placeholder": "^1.0.0",
+    "iview": "^3.4.2",
+    "jquery": "^3.4.1",
+    "mini-css-extract-plugin": "^0.8.0",
+    "postcss": "^7.0.18",
+    "vue": "^2.6.10",
+    "vue-meta": "^2.2.2",
+    "vue-router": "^3.0.3",
+    "vue-totop": "^1.0.3",
+    "vuex": "^3.0.1",
+    "wangEditor": "^3.1.1",
+    "yarn": "^1.17.3"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.9.0",
+    "@vue/cli-plugin-eslint": "^3.1.5",
+    "@vue/cli-service": "^3.9.0",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "babel-eslint": "^10.0.1",
+    "babel-plugin-import": "^1.12.0",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "babel-polyfill": "^6.26.0",
+    "css-split-webpack-plugin": "^0.2.6",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "less": "^3.0.4",
+    "less-loader": "^4.1.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "@vue/standard"
+    ],
+    "rules": {
+      "no-extra-semi": [
+        0
+      ],
+      "indent": [
+        2,
+        4
+      ],
+      "space-before-function-paren": [
+        0
+      ],
+      "camelcase": [
+        0
+      ],
+      "eqeqeq": [
+        "off"
+      ],
+      "semi": [
+        0
+      ],
+      "vue/no-parsing-error": [
+        2,
+        {
+          "x-invalid-end-tag": false
+        }
+      ]
+    },
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 0.5%",
+    "last 2 versions",
+    "not ie <=8",
+    "Firefox >= 20 "
+  ]
+}

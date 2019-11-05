@@ -1,0 +1,8 @@
+export const CHANGE_LOGIN_STATUS = 'CHANGE_LOGIN_STATUS'
+export const SET_USERINFO = 'SET_USERINFO'
+export const SET_TOKEN = 'SET_TOKEN'
+export const SET_AUTH = 'SET_AUTH'
+export const CLEAR_AUTH = 'CLEAR_AUTH'
+export const SET_ROLES = 'SET_ROLES'
+export const SET_COMMUNITY = 'SET_COMMUNITY'
+export const SET_BASE_DATA = 'SET_BASE_DATA'
